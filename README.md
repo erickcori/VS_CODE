@@ -1,49 +1,49 @@
 # SHAP Systemic Influence Plot
 
-Genera un ranking de barreras utilizando **XGBoost** + **SHAP**, con exportación automática de gráficos en alta resolución (PNG, PDF y SVG) en la carpeta `figs/`.
+Generates a ranking of systemic barriers using **XGBoost + SHAP**, exporting high-resolution figures (PNG, PDF, and SVG) to the `figs/` folder.
 
 ---
 
-## 📋 Requisitos
+## 📋 Requirements
 
-Instalar las dependencias con:
+Install the dependencies:
+
+```bash
 pip install -r requirements.txt
 
-▶ Uso
-Ejecutar el script principal:
+▶ Usage
+Run the main script:
 
-bash
-Copiar
-Editar
 python plot_shap.py
-Esto generará las figuras en figs/ con resolución de 600 dpi, en formatos PNG, PDF y SVG.
 
-📂 Estructura del proyecto
-bash
-Copiar
-Editar
+This will generate figures in figs/ at 600 dpi in PNG, PDF, and SVG formats.
+
+📂 Project Structure
+
 VS_CODE/
-│-- plot_shap.py       # Script principal
-│-- requirements.txt   # Dependencias
-│-- README.md          # Documentación
-│-- .gitignore         # Archivos ignorados por Git
-│-- figs/              # Salida de figuras (ignoradas por Git)
+│-- plot_shap.py       # Main script
+│-- requirements.txt   # Dependencies
+│-- README.md          # Documentation
+│-- .gitignore         # Files ignored by Git
+│-- figs/              # Figure outputs (ignored by Git)
 
-##📄 Licencia
+📄 License
 MIT License
 
-##💡 Notas
-La carpeta figs/ está incluida en .gitignore para no subir las imágenes generadas.
+💡 Notes
+The figs/ folder is listed in .gitignore so generated images are not committed.
 
-Puedes modificar el script plot_shap.py para ajustar colores, títulos o formato de exportación.
+You can tweak plot_shap.py to adjust colors, titles, or export settings.
 
-## 🔄 Flujo recomendado para subir cambios a GitHub
-Guardar los cambios.
 
-Stage All (icono ➕ en el panel Git de VS Code).
+🔄 Recommended Git Workflow
+Save your changes.
 
-Escribir un mensaje breve (ej: feat: add high-res SHAP plots).
+Stage All (➕ icon in VS Code’s Source Control).
+
+Write a short message (e.g., feat: add high-res SHAP plots).
 
 Commit (✓).
 
-Push (flecha ↑ o “Sync Changes”).
+Push (↑ or “Sync Changes”).
+
