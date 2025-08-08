@@ -1,33 +1,69 @@
 # SHAP Systemic Influence Plot
 
-Genera un ranking de barreras utilizando **XGBoost** + **SHAP**, con exportación automática de gráficos en alta resolución (PNG, PDF y SVG en la carpeta `figs/`).
+Genera un ranking de barreras utilizando **XGBoost** + **SHAP**, con exportación automática de gráficos en alta resolución (PNG, PDF y SVG) en la carpeta `figs/`.
 
-## 📦 Requisitos
+---
+
+## 📋 Requisitos
 
 Instalar las dependencias con:
 
 ```bash
 pip install -r requirements.txt
-
-▶️ Uso
+▶ Uso
 Ejecutar el script principal:
+
+bash
+Copiar
+Editar
 python plot_shap.py
-Esto generará las figuras en figs/ con resolución de 600 dpi.
+Esto generará las figuras en figs/ con resolución de 600 dpi, en formatos PNG, PDF y SVG.
 
 📂 Estructura del proyecto
 bash
 Copiar
 Editar
 VS_CODE/
-│-- plot_shap.py           # Script principal
-│-- requirements.txt       # Dependencias
-│-- README.md              # Documentación
-│-- .gitignore             # Archivos ignorados por Git
-└── figs/                   # Salida de figuras (ignorada por Git)
-
-📜 Licencia
+│-- plot_shap.py       # Script principal
+│-- requirements.txt   # Dependencias
+│-- README.md          # Documentación
+│-- .gitignore         # Archivos ignorados por Git
+│-- figs/              # Salida de figuras (ignoradas por Git)
+📄 Licencia
 MIT License
 
-Si quieres, te lo preparo ya listo para **copiar y pegar** en tu `README.md` y hacer el **Commit → Push**, así tu repo queda con un README de nivel Q1 😏.  
+💡 Notas
+La carpeta figs/ está incluida en .gitignore para no subir las imágenes generadas.
 
-¿Quieres que lo haga ahora?
+Puedes modificar el script plot_shap.py para ajustar colores, títulos o formato de exportación.
+
+Flujo recomendado para subir cambios a GitHub:
+
+Guardar los cambios.
+
+Stage All (icono + en el panel Git de VS Code).
+
+Escribir un mensaje breve (ej: feat: add high-res SHAP plots).
+
+Commit (✓).
+
+Push (flecha ↑ o “Sync Changes”).
+
+yaml
+Copiar
+Editar
+
+---
+
+Si lo pegas así en tu `README.md`, quedará **exactamente como en la imagen que me mostraste**, listo para GitHub.  
+
+Si quieres, puedo prepararte también el `.gitignore` y `requirements.txt` para que todo tu repo quede ordenado desde el inicio.
+
+
+
+
+
+
+
+
+Preguntar a ChatGPT
