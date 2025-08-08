@@ -37,11 +37,10 @@ La carpeta figs/ está incluida en .gitignore para no subir las imágenes genera
 
 Puedes modificar el script plot_shap.py para ajustar colores, títulos o formato de exportación.
 
-Flujo recomendado para subir cambios a GitHub:
-
+🔄 Flujo recomendado para subir cambios a GitHub
 Guardar los cambios.
 
-Stage All (icono + en el panel Git de VS Code).
+Stage All (icono ➕ en el panel Git de VS Code).
 
 Escribir un mensaje breve (ej: feat: add high-res SHAP plots).
 
@@ -49,21 +48,10 @@ Commit (✓).
 
 Push (flecha ↑ o “Sync Changes”).
 
-yaml
+javascript
 Copiar
 Editar
 
----
+📌 Si lo pegas así en tu `README.md` y haces commit + push, en GitHub se verá perfectamente formateado con títulos, bloques de código y listas.  
 
-Si lo pegas así en tu `README.md`, quedará **exactamente como en la imagen que me mostraste**, listo para GitHub.  
-
-Si quieres, puedo prepararte también el `.gitignore` y `requirements.txt` para que todo tu repo quede ordenado desde el inicio.
-
-
-
-
-
-
-
-
-Preguntar a ChatGPT
+Si quieres, te puedo hacer también **el `.gitignore` y `requirements.txt` listos** para que tu repo quede armado y funcionando de inmediato.
